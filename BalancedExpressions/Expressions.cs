@@ -10,13 +10,18 @@ namespace BalancedExpressions
             var stack = new Stack<char>();
             foreach (var ch in input)
             {
-                if (ch == '(')
+                if (ch == '(' || ch == '<' || ch == '[' || ch == '{')
                     stack.Push(ch);
-                if (ch == ')')
+                if (ch == ')' || ch == '>' || ch == ']' || ch == '}')
                 {
                     if (stack.Count == 0)
                         return false;
-                    stack.Pop();
+                    var top = stack.Pop();
+                    if ((ch==')' && top!='(') ||
+                        (ch == '>' && top != '<') ||
+                        (ch == '}' && top != '{') ||
+                        (ch == ']' && top != '['))
+                        return false;
                 }
                     
             }
