@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedExpressions", "BalancedExpressions\BalancedExpressions.csproj", "{E4075BA3-1A34-40FB-8DDB-0E12319045AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4075BA3-1A34-40FB-8DDB-0E12319045AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4075BA3-1A34-40FB-8DDB-0E12319045AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4075BA3-1A34-40FB-8DDB-0E12319045AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4075BA3-1A34-40FB-8DDB-0E12319045AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {147172F8-B772-4637-9588-51E3951F6E6E}
+	EndGlobalSection
+EndGlobal
